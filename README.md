@@ -3,7 +3,7 @@
 SecureVault++ is a professional, terminal-based cybersecurity application built entirely in modern C++17. It provides a secure, locally encrypted vault for users to store sensitive notes and external files (PDFs, Images, Archives) using a password-derived cryptographic key.
 
 <div align="center">
-  <img src="assets/Main_Menu.png" alt="SecureVault Main Menu" width="650"/>
+  <img src="assests/Main_Menu.png" alt="SecureVault Main Menu" width="650"/>
 </div>
 
 <br>
@@ -25,21 +25,21 @@ This project was developed to demonstrate enterprise-level object-oriented desig
 
 ### 🔒 File Encryption Engine
 <div align="center">
-  <img src="assets/Encryption.png" alt="Encryption Progress Bar" width="650"/>
+  <img src="assests/Encryption.png" alt="Encryption Progress Bar" width="650"/>
 </div>
 <br>
 <em>Real-time binary processing of external files into the secure vault environment without corrupting target file structures.</em>
 
 ### 🗄️ Vault Indexing & Management
 <div align="center">
-  <img src="assets/Vault_Contents.png" alt="Vault Contents" width="650"/>
+  <img src="assests/Vault_Contents.png" alt="Vault Contents" width="650"/>
 </div>
 <br>
 <em>Auditable, timestamped indexing of all secured notes and encrypted external files utilizing std::filesystem.</em>
 
 ### 📝 Secure Notes System
 <div align="center">
-  <img src="assets/Secure_Notes.png" alt="Secure Notes" width="650"/>
+  <img src="assests/Secure_Notes.png" alt="Secure Notes" width="650"/>
 </div>
 <br>
 <em>In-memory CRUD operations for sensitive text, immediately encrypted before persisting to the local disk.</em>
