@@ -2,6 +2,12 @@
 
 SecureVault++ is a professional, terminal-based cybersecurity application built entirely in modern C++17. It provides a secure, locally encrypted vault for users to store sensitive notes and external files (PDFs, Images, Archives) using a password-derived cryptographic key.
 
+<div align="center">
+  <img src="assets/main_menu.png" alt="SecureVault Main Menu" width="600"/>
+</div>
+
+<br>
+
 This project was developed to demonstrate enterprise-level object-oriented design, raw binary memory management, and secure system architecture without relying on third-party libraries.
 
 ## 🚀 Key Features
@@ -12,6 +18,22 @@ This project was developed to demonstrate enterprise-level object-oriented desig
 * **Secure Notes:** Full CRUD (Create, Read, Update, Delete) capabilities for encrypted text notes, complete with case-insensitive search functionality.
 * **Auditable Logging:** Thread-safe, timestamped activity logs tracking system access and cryptographic operations.
 * **Cross-Platform UI:** ANSI-escaped terminal interface with progress bars and masked secure password inputs (POSIX and Windows compatible).
+
+## 📸 Application Showcase
+
+### 🔒 File Encryption Process
+<div align="center">
+  <img src="assets/encryption_progress.png" alt="Encryption Progress Bar" width="600"/>
+</div>
+<br>
+<em>Real-time binary processing of external files into the secure vault environment.</em>
+
+### 🗄️ Vault Management
+<div align="center">
+  <img src="assets/vault_contents.png" alt="Vault Contents" width="600"/>
+</div>
+<br>
+<em>Auditable, timestamped indexing of all secured notes and encrypted external files.</em>
 
 ## 🧠 Technical Architecture
 
@@ -25,6 +47,7 @@ The application is heavily modularized to prevent circular dependencies and enfo
 ### Folder Structure
 ```text
 SecureVault/
+├── assets/            # UI Screenshots for documentation
 ├── include/           # Header files (Interfaces)
 ├── src/               # Source files (Implementations)
 ├── users/             # Hashed credentials storage
